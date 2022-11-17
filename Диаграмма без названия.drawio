@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T13:51:35.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.0.2419 Yowser/2.5 Safari/537.36" version="20.2.6" etag="F7o9znuWlDGrjGxn8UZw" type="github"><diagram id="dY1_8rsSEOxzLPDgCDGB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-17T14:08:56.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.0.2419 Yowser/2.5 Safari/537.36" etag="vh9LtyqMkaq_RibHI4nU" version="20.2.6" type="github">
+  <diagram id="dY1_8rsSEOxzLPDgCDGB" name="Страница 1">
+    <mxGraphModel dx="1502" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBBvAsAbXhyvy4ENcR_v-1" target="dBBvAsAbXhyvy4ENcR_v-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-1" value="1) Получаем список товаров и услуг из запроса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBBvAsAbXhyvy4ENcR_v-2" target="dBBvAsAbXhyvy4ENcR_v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-2" value="2) Добавляем к каждой записи укрупненную номенклатуру" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBBvAsAbXhyvy4ENcR_v-4" target="dBBvAsAbXhyvy4ENcR_v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-4" value="3) Создаем отдельный массив, где сгруппированы данные по укрупненной номенклатура. Массив укрупненной номенклатуры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBBvAsAbXhyvy4ENcR_v-6" target="dBBvAsAbXhyvy4ENcR_v-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-6" value="4) Из массива (пункт 3) берем укрупненную номенклатуру и находим все позиции которые ей соответствуют из первоначального списка (пункт 2)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="220" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBBvAsAbXhyvy4ENcR_v-8" target="dBBvAsAbXhyvy4ENcR_v-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="390" />
+              <mxPoint x="490" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBBvAsAbXhyvy4ENcR_v-8" target="dBBvAsAbXhyvy4ENcR_v-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-8" value="Количество позиций ТНГ для одной урупненной номенклатуры РАВНО 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-11" value="В счет добавляем укрупненную номенклатуру с таким же количеством как у номенклатуры ТНГ и с такой же ценой&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="365" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-15" value="ДА" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="355" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-16" value="Считаем общую сумму по всем позициям ТНГ для укрупненной номенклатуры. Количество не указываем. Цену услуги устанавливаем равной сумме всех позиций ТНГ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="515" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dBBvAsAbXhyvy4ENcR_v-18" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
